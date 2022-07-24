@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    /*'Water Brush', cursive;*/
+    color: #777;
+    color:black;
+    font-style: bold;
+    
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto; /*ACentWRindt.*/
+    padding: 0 1.5em;
+}
+
+.main_header_container{
+    padding:30px
+}
+
+.logo{
+    float: left;
+    padding-top: 0px
+}
+
+.h1main{
+    color: teal;
+    font-weight:bold;
+    font-family:'Tapestry', cursive;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size:4em;
+    margin: 0px;
+    text-align: center;
+}
+
+header_nav{
+    padding-left: -40px
+}
+
+main_header_container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+header_nav li{
+    padding: 0 .5em;
+}
+
+.header_nav{
+    margin: 0;
+    padding: 0px;
+}
+
+.header_nav li{
+    display: inline;
+}
+
+header_nav{
+    flex-grow: 1;
+    text-align: end
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 20px /*dimenstions box*/
+}
+
+.main-nav li{
+    display: inline;
+    padding: 0 5% /*spacing between li*/
+}
+
+.main-nav a{
+    display: inline-block;
+    color: rgb(17, 224, 17);
+    padding: 0px; /*dimensions box cont.*/
+}
+
+.nav a:hover {
+    background-color: red;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: lighter;
+}
+
+.nav2{
+    border-bottom: 5px solid rgba(255, 255, 255, .3)
+}
+
+.h1sec{
+    color: purple;
+    text-align: left;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    padding-left: 0px;
+    margin: 0px
+}
+
+.h3foot{
+    color: purple;
+    text-align: center;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    font-size: 4em;
+}
+
+.main_header{
+    background-color:rgba(219, 228, 202, 0.925);
+    padding: 20px;
+}
+
+.main_section1{
+    background-image: url("images/igbackground2.png");
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 30px
+}
+
+
+.p{/*get something better*/
+    margin:0em; /*NValidCont.*/
+    /*text-align: center n/a Rindt.*/
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        silver 0%
+    );
+    border-radius: 1%;
+}
+
+.pfooter{
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    border-bottom: 5px solid rgba(255, 255, 255, .3)
+}
+
+.wtsec{
+    align-self: center;
+    float: right;
+    margin: 1em;
+    border-radius: 15%
+}
+
+.main_footer{
+    background-color:rgba(219, 228, 202, 0.925);
+    color: white;
+    padding: .25em 0;
+}
+
+.main_footer_container{
+    display: flex;
+    align-items: center;
+}
+
+.main_footer_container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer_nav img{
+    width: 250px
+}
+
+
+/*STORE*/
+
+.btnpad{
+    margin-top:10px;
+}
+
+.buttton:hover{
+    background-color:blue;
+    color: red;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: .5em;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid blue;
+    border-radius: 10%;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.play_button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: .5em;
+    font-size: 1.5em;
+    border: 2px solid blue;
+    width:100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 3em;
+    text-align: center;
+    
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.store-title{
+    text-align: center;
+}
+
+.shop_items{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.shop_item{
+    padding-bottom:30px
+}
+
+.shop_item_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.35em;
+    color: #333;
+    margin-bottom: 0px;
+    padding-bottom: 15px
+}
+
+.shop_item_image{
+    width: 250px;
+    margin:0;
+    padding:0;
+}
+
+.shop_item_details{
+    display: flex;
+    align-items: center;
+    padding-top: 10px
+}
+
+.shop_item_price{
+    flex-grow: 1;
+    font-size: 1.4em;
+}
+
+.item_specifics{
+    text-align: center;
+    flex-grow: 100;
+    font-size: 16px;
+}
+
+.button_primary{
+    color:white;
+    background-color: green;
+    border: none;
+    border-radius: 15%;
+    font-size: 1.5em;
+    float: right
+}
+
+.iglink1:hover{
+    background-color:green;
+    cursor: pointer;
+ 
+/*FIGURE OUT HOVER*/
+}
+
+.iglink1{
+    padding:0;
+    margin:0;
+    border: 0;
+    background-color: transparent; /*spacing below image still there*/
+}
+
+.shop_item_image{
+    padding-bottom: 0;
+    width: 300px
+}
+
+
+/*CART STORE*/
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color:#333
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.5em;
+}
+
+.cart-quantity{
+    width: 35%
+}
+
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.5em;
+}
+
+.cart-item-image{
+    width:75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quantity-input{
+    height:35px;
+    width: 50px;
+    border-radius:5px;
+    border: 1px solid green;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-total-price{
+    margin-left: .5em;
+    font-size: 1.5em;
+}
+
+.button-purchase{
+    display: block;
+    margin: 40px auto 40px auto;
+    float:none;
+    font-size: 2.5em;
+
+}
